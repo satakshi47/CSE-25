@@ -1,0 +1,63 @@
+/* Header uses block (takes full width) */
+header {
+    background-color: #ddd;
+    text-align: center;
+    padding: 10px 0;
+    display: block;
+}
+
+header h2 {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+header span {
+    color: red;
+    font-style: italic;
+}
+
+/* First Navigation Menu using inline-block */
+.menu1 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+}
+
+.menu1 li {
+    display: inline-block;   /* keeps block-like but inline placement */
+    margin: 5px;
+}
+
+.menu1 a {
+    text-decoration: none;
+    padding: 8px 15px;
+    background-color: #cce6ff;
+    border: 1px solid #99ccff;
+    color: #000;
+}
+
+/* Second Navigation Menu using float */
+.menu2 ul {
+    list-style-type: none;
+    margin: 10px 0;
+    padding: 0;
+}
+
+.menu2 li {
+    float: left;              /* places items side by side */
+    margin-right: 10px;
+}
+
+.menu2 a {
+    text-decoration: none;
+    background-color: lightgreen;
+    padding: 8px 15px;
+    border: 1px solid #66cc66;
+    color: #000;
+}
+
+/* Clear property to stop float overlap */
+.clear {
+    clear: both;
+}
