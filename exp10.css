@@ -1,0 +1,51 @@
+.navbar{
+    display:flex;
+    background-color:black;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+    padding:12px 20px;
+}
+.logo{
+    font-size:22px;
+    font-weight:bold;
+}
+.nav-links{
+    display:flex;
+    gap: 25px;
+}
+
+.nav-links a{
+    color:white;
+    font-size:15px;
+}
+
+
+.nav-right a{
+    color:white;
+    margin-left:20px;
+    font-weight: bold;
+}
+.welcome {
+    padding:30px;
+
+}
+.welcome {
+    font-size: 24px;
+
+}
+@media (max-width:768px){
+    .navbar{
+        flex-direction: column;
+        text-align:center;
+        gap:15px;
+    }
+    .nav-links{
+        flex-direction: column;
+        gap:10px;
+    }
+    .nav-right{
+        display: flex;
+        gap:15px;
+    }
+}
